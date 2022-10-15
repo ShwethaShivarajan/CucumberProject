@@ -41,11 +41,11 @@ public class LoginStepDef {
 
 		// Step2: Enter Username
 		WebElement UserName = driver.findElement(By.name("user_login"));
-		UserName.sendKeys("shwetha.swtz23@gmail.com");
+		UserName.sendKeys("abc3444@gmail.com");
 
 		// Step3: Enter Password
 		WebElement Password = driver.findElement(By.id("password"));
-		Password.sendKeys("WorkSmart@23");
+		Password.sendKeys("Test@123");
 	}
 
 	@When("I click on Login button")
